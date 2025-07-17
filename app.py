@@ -19,7 +19,7 @@ genai.configure(api_key=api_key)
 # Initialize the Generative Model. Using a more specific model for chat might be beneficial.
 # For general reflection, 'gemini-pro' is fine. If you wanted more conversational turns,
 # you might consider a chat-optimized model if available or set up chat history.
-model = genai.GenerativeModel('gemini-1.5-pro-latest')
+model = genai.GenerativeModel('gemini-2.0-flash')
 
 # --- Streamlit App ---
 st.set_page_config(page_title="🧘 Mental Wellness Reflection Bot", layout="centered")
